@@ -1,0 +1,16 @@
+[package]
+name = "ur20-ethercat"
+version = "0.0.0"
+authors = ["Markus Kohlhase <markus.kohlhase@slowtec.de>"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/slowtec/ur20-ethercat"
+repository = "https://github.com/slowtec/ur20-ethercat"
+description = "Modbus EtherCAT fieldbus coupler (`UR20-FBC-EC`) implementation"
+edition = "2018"
+
+[dependencies]
+ethercat = "0.1"
+ur20 = "0.5"
+
+[badges]
+maintenance = { status = "actively-developed" }
